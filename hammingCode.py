@@ -167,7 +167,7 @@ if option == '0':
         new_hamming = fix_error(hamming)
         print("The fixed hamming code is: ")
         print(" ".join(new_hamming))
-    elif noption == '0':
+    elif noption == '1':
         print("Checking the hamming code: ")
         new_hamming = fix_error(hamming)
         print("The hamming code is: ")
